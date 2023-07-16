@@ -292,51 +292,7 @@ const bancoFisicaTermodinamica = [
     comentario: "",
     legenda: "",
   },
-  {
-    id: uuid(),
-    enunciado:
-      "O aproveitamento da luz solar como fonte de energia renovável tem aumentado significativamente nos últimos anos. Uma das aplicações é o aquecimento de água (ρ água = 1 kg/L) para uso residencial. Em um local, a intensidade da radiação solar efetivamente captada por um painel solar com área de 1 m2 é de 0,03 kW/m2. O valor do calor específico da água é igual 4,2 kJ/(kgºC).",
-    comando: "A razão kA / kB é mais próxima de",
-    banca: "INEP",
-    orgao: "ENEM",
-    ano: "2019",
-    estaAdaptada: false,
-    imagens: [],
-    alternativas: [
-      {
-        letra: "A",
-        texto: "0,50",
-        estaCorreta: false,
-      },
-      {
-        letra: "B",
-        texto: "0,67",
-        estaCorreta: true,
-      },
-      {
-        letra: "C",
-        texto: "0,75",
-        estaCorreta: false,
-      },
-      {
-        letra: "D",
-        texto: "1,33",
-        estaCorreta: true,
-      },
-      {
-        letra: "E",
-        texto: "2,00",
-        estaCorreta: false,
-      },
-    ],
-    disciplina: "Física",
-    assuntos: ["Termodinâmica"],
-    percentualDeAcerto: "35",
-    nivelDaQuestao: "difícil",
-    gabarito: "B",
-    comentario: "",
-    legenda: "",
-  },
+
   {
     id: uuid(),
     enunciado:

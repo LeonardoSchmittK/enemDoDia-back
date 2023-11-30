@@ -344,6 +344,61 @@ const bancoFisicaTermodinamica = [
   },
 ];
 
+const bancoFisicaMecanica = [
+  {
+    id: uuid(),
+    enunciado:
+      "Visando a melhoria estética de um veículo, o vendedor de uma loja sugere ao consumidor que ele troque as rodas de seu automóvel de aro 15 polegadas para aro 17 polegadas, o que corresponde a um diâmetro maior do conjunto roda e pneu.",
+    comando: "Duas consequências provocadas por essa troca de aro são:",
+    banca: "ENEM",
+    orgao: "INEP",
+    ano: "2018",
+    estaAdaptada: false,
+    imagens: [],
+    alternativas: [
+      {
+        letra: "A",
+        texto:
+          "Elevar a posição do centro de massa do veículo tornando-o mais instável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.",
+        estaCorreta: true,
+      },
+      {
+        letra: "B",
+        texto:
+          "Abaixar a posição do centro de massa do veículo tornando-o mais instável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+        estaCorreta: false,
+      },
+      {
+        letra: "C",
+        texto:
+          "Elevar a posição do centro de massa do veículo tornando-o mais estável e aumentar a velocidade do automóvel em relação à indicada no velocímetro.",
+        estaCorreta: false,
+      },
+      {
+        letra: "D",
+        texto:
+          "Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro.",
+        estaCorreta: false,
+      },
+      {
+        letra: "E",
+        texto:
+          "Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro..",
+        estaCorreta: false,
+      },
+    ],
+    disciplina: "Física",
+    assuntos: ["Mecânica"],
+    percentualDeAcerto: "23",
+    nivelDaQuestao: "médio",
+    gabarito: "A",
+    comentario:
+      "Aumentando o diâmetro das rodas, a altura do carro se torna maior. Logo, mais instável em curvas, por exemplo, sujeito a capotamentos. Gabarito letra " +
+      this.gabarito,
+    legenda: "",
+  },
+];
+
 const bancoHistoriaColonialismo = [
   {
     id: uuid(),
@@ -1321,7 +1376,7 @@ const bancoGeografiaGeografiaHumana = [
 ];
 
 const bancoHistoria = [...bancoHistoriaColonialismo, ...bancoHistoriaGeral];
-const bancoFisica = [...bancoFisicaTermodinamica];
+const bancoFisica = [...bancoFisicaTermodinamica, ...bancoFisicaMecanica];
 const bancoGeografia = [...bancoGeografiaGeografiaHumana];
 const bancoMatematica = [
   ...bancoMatematicaProbabilidade,
